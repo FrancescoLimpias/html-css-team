@@ -37,3 +37,13 @@ body {
 #connection .section-image {
     width: 65%;
 }
+
+#connection h2 {
+    font-size: 2.6rem;
+}
+
+#connection p {
+    padding-top: 20px;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
