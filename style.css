@@ -30,6 +30,20 @@
     margin-bottom: 35px;
 }
 
+#last-section #cta {
+    background-image: url('img/stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 35px 30px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#last-section h3 {
+    font-size: 30px;
+}
+
 #last-section button {
     color: #fff;
     background-color: #7289da;
