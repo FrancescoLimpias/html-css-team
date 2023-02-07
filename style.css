@@ -33,3 +33,7 @@ body {
 #connection .section-text {
     width: 45%;
 }
+
+#connection .section-image {
+    width: 65%;
+}
