@@ -1,3 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#last-wave {
+    width: 100%;
+    filter: invert(.9);
+    margin-bottom: -50px;
+}
+
+#last-section {
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#last-section .container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+#last-section #big-img {
+    width: 100%;
+}
+
+#last-section #text {
+    width: 940px;
+    margin: 0 auto;
+    font-size: 21px;
+}
+
+#last-section #text h2 {
+    font-size: 2.3em;
+    margin-bottom: 35px;
+}
+
+#last-section #cta {
+    background-image: url('img/stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 35px 30px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#last-section h3 {
+    font-size: 30px;
+}
+
 /* General Settings */
 *,
 *::before,
@@ -37,17 +89,12 @@ section.feature>* {
     flex: 0 0 50%;
 }
 
-section.feature .left{
+section.feature .left {
     display: flex;
     justify-content: flex-end;
 }
 
-section.feature h2{
+section.feature h2 {
     font-size: xxx-large;
     margin-bottom: 1em;
-}
-
-section.feature p{
-    font-size: large;
-    /* font-weight: 100; */
 }
