@@ -29,3 +29,12 @@
     font-size: 2.3em;
     margin-bottom: 35px;
 }
+
+#last-section button {
+    color: #fff;
+    background-color: #7289da;
+    font-size: 17px;
+    border-radius: 50px;
+    padding: 15px;
+    cursor: pointer;
+}
