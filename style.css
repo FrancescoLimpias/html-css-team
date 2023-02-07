@@ -16,3 +16,20 @@ body {
     max-width: 1024px;
     margin: 0 auto;
 }
+
+/* Seconda sezione */
+#connection {
+    background-color: #F6F6F6;
+    padding: 60px 30px;
+}
+
+#connection>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+#connection .section-text {
+    width: 45%;
+}
