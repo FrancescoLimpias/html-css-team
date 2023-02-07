@@ -11,3 +11,8 @@ img {
 body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
