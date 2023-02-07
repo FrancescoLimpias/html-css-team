@@ -101,3 +101,34 @@ section.feature h2 {
     font-size: xxx-large;
     margin-bottom: 1em;
 }
+
+/* Seconda sezione */
+#connection {
+    background-color: #F6F6F6;
+    padding: 60px 30px;
+}
+
+#connection>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+#connection .section-text {
+    width: 45%;
+}
+
+#connection .section-image {
+    width: 65%;
+}
+
+#connection h2 {
+    font-size: 2.6rem;
+}
+
+#connection p {
+    padding-top: 20px;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
