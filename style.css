@@ -37,17 +37,18 @@ section.feature>* {
     flex: 0 0 50%;
 }
 
-section.feature .left{
+
+section.feature .left {
     display: flex;
     justify-content: flex-end;
 }
 
-section.feature h2{
+section.feature h2 {
     font-size: xxx-large;
     margin-bottom: 1em;
 }
 
-section.feature p{
+section.feature p {
     font-size: large;
     /* font-weight: 100; */
 }
