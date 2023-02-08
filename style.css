@@ -135,6 +135,14 @@ hr {
     text-align: right;
 }
 
+#last-section button {
+    color: #fff;
+    background-color: #7289da;
+    font-size: 17px;
+    border-radius: 50px;
+    padding: 15px;
+    cursor: pointer;
+=========
 /* General Settings */
 *,
 *::before,
@@ -174,8 +182,7 @@ section.feature>* {
     flex: 0 0 50%;
 }
 
-
-section.feature .left {
+section.feature .left{
     display: flex;
     justify-content: flex-end;
 }
@@ -185,102 +192,10 @@ section.feature h2 {
     margin-bottom: 1em;
 }
 
-section.feature p {
+section.feature p{
     font-size: large;
     /* font-weight: 100; */
+>>>>>>>>> Temporary merge branch 2
 }
 
-footer {
-    background-color: black;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.footer-row {
-    width: 70%;
-    margin: auto;
-    line-height: 2.0;
-    margin-bottom: 20px;
-}
-
-.footer-row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.footer-first-col {
-    width: 30%;
-    float: left;
-}
-
-.footer-second-col {
-    width: 70%;
-    float: left;
-}
-
-.footer-first-col h2 {
-    color: rgb(126, 54, 235);
-}
-
-.footer-first-col span {
-    color: white;
-}
-
-.footer-second-row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.info {
-    float: left;
-    width: 20%;
-    color: white;
-    margin-left: 5%;
-}
-
-.info h3 {
-    color: rgb(126, 54, 235);
-}
-
-hr {
-    color: white;
-}
-
-.footer-third-row {
-    width: 70%;
-    margin: auto;
-    padding-top: 20px;
-}
-
-.footer-third-row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.footer-third-row .logo-first-col {
-    float: left;
-    width: 50%;
-    height: 30px;
-}
-
-.footer-third-row .logo-first-col img {
-    width: 30%;
-    height: auto;
-}
-
-.footer-third-row .button-second-col {
-    float: left;
-    width: 50%;
-    text-align: right;
-}
-
-.footer-third-row .button-second-col button {
-    color: white;
-    padding: 5px 10px;
-    background-color: rgb(126, 54, 235);
-    border-radius: 40%;
-
-}
+/* -----------------End elements */
